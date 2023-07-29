@@ -13,7 +13,7 @@
 .universal-h2 {
   font-size: 48px;
   text-align: center;
-  color: #222;
+  color: #F29544;
 }
 
 @media (max-width: 1250px) {
@@ -142,7 +142,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #E0E7FF ;
+  background-color: #000000 ;
   opacity: 0.9;
 }
 
@@ -207,7 +207,7 @@
 
 .top-banner__inner .top-banner__text p {
   margin-bottom: 42px;
-  color: #777;
+  color: #f29544ad ;
 }
 
 @media (max-width: 768px) {
@@ -220,7 +220,7 @@
 .top-banner__inner .top-banner__h2 {
   font-size: 74px;
   letter-spacing: 3px;
-  color: #333333 ;
+  color: #F26A1B ;
   font-family: 'Cabin', sans-serif;
 }
 
@@ -289,7 +289,7 @@
 
 .brand-span {
   font-size: 14px;
-  color: #c18f59;
+  color: #F29544;
 }
 
 .brand-button {
@@ -298,7 +298,7 @@
   font-size: 11px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #c18f59;
+  color: #F26A1B;
   border: 1px solid #fff;
   transition: 0.3s ease;
 }
@@ -434,7 +434,7 @@
 .portfolio-wrapper .portfolio__name span {
   font-size: 90px;
   line-height: 75px;
-  color: #c18f59;
+  color: #F26A1B;
   font-family: 'Cabin', sans-serif;
 }
 @media (max-width: 992px) {
@@ -472,18 +472,17 @@
   text-align: center;
 }
 .about-me__text .universal-h2 {
-  color: #fff;
   padding-bottom: 20px;
   margin-bottom: 25px;
 }
 .about-me__text p {
   margin-bottom: 35px;
   line-height: 24px;
-  color: #c18f59;
+  color: #F2A74B;
 }
 .about-me__text p span {
   font-size: 48px;
-  color: #fff;
+  color: #F26A1B;
 }
 @media (max-width: 620px) {
   .about-me__text p {
@@ -531,10 +530,10 @@
 .fh5co-books .books-brand-button .brand-button {
   font-size: 16px;
   text-transform: none;
-  border-color: #c18f59;
+  border-color: #F26A1B;
 }
 .fh5co-books .books-brand-button .brand-button:hover {
-  border-color: #777;
+  border-color: #698EBF;
 }
 @media (max-width: 1250px) {
   .fh5co-books {
@@ -600,7 +599,7 @@
   font-size: 18px;
   font-weight: 600;
   font-style: italic;
-  color: #c18f59;
+  color: #D93E30;
 }
 @media (max-width: 1250px) {
   .single-book {
@@ -641,7 +640,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #c18f59;
+  background-color: #F29544;
   opacity: 0.9;
 }
 .fh5co-counter .site-container {
@@ -724,7 +723,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #c18f59;
+  background-color: #F29544;
   opacity: 0.9;
 }
 .fh5co-social .site-container {
@@ -780,7 +779,7 @@
 
 .site-footer {
   padding-top: 120px;
-  background-color: #343434;
+  background-color: #7B838C;
 }
 @media (max-width: 1250px) {
   .site-footer {
@@ -821,7 +820,7 @@
 }
 
 .footer-info .footer-info__left p {
-   color: #c18f59; 
+   color: #F29544; 
 }
 
 @media (max-width: 620px) {
@@ -832,7 +831,7 @@
 
 .footer-info .footer-info__right p {
    margin-bottom: 15px;
-    color: #aaa; 
+    color: #fff; 
   }
 
 .footer-info .footer-info__right .footer-phone { 
@@ -876,7 +875,7 @@
   padding: 20px; 
   border: 1px solid #404040; 
   background-color: #282828; 
-  color: #c18f59;
+  color: #F29544;
  }
 
 .footer-contact-form .contact-form__input input::placeholder {
