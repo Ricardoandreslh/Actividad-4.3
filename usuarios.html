@@ -24,7 +24,6 @@
 				<ul class="main-navigation__ul">
 					<li><a href="index.html">Inicio</a></li>
 					<li><a href="usuarios.html">Registrarse y Iniciar Sesion</a></li>
-					<li><a href="#">Iniciar Sesión</a></li>
 				</ul>
 			</div>
 			<div id="myBtn" class="burger-container" onclick="myFunction(this)">
@@ -42,35 +41,34 @@
 	</nav>
 
         <div class="container" >
-            <h1>Login y Registro de Usuarios</h1>
+            
 
             <div class="form-container">
             <h2 class>Registro</h2>
-
                 <form action="/register" method="post" id="registerForm">
             
                     <label for="name">Nombre de usuario:</label>
-                    <input type="text" id="name" name="name" value=""required>
+                    <input type="text" id="name" name="name" value="" class="input-field" required>
 
                     <label for="password">Contraseña:</label>
-                    <input type="password" id="password" name="password" value="" required>
+                    <input type="password" id="password" name="password" value="" class="input-field" required>
 
-                    <input type="submit" value="Registrarse">
-
-            </form> 
+                    <input type="submit" value="Registrarse" class="submit-btn">
+            	</form> 
             </div>
 
             <div class="form-container">
-            <h2>Login</h2>
-            <form action="/login" method="post" id="loginForm">
-                <label for="name">Nombre de usuario:</label>
-                <input type="text" id="name" name="name" value="" required>
+				<h2>Login</h2>
+					<form action="/login" method="post" id="loginForm">
 
-                <label for="password">Contraseña:</label>
-                <input type="password" id="password" name="password" value="" required>
+						<label for="name">Nombre de usuario:</label>
+						<input type="text" id="name" name="name" value="" class="input-field" required>
 
-                <input type="submit" value="Iniciar sesión">
-            </form>
+						<label for="password">Contraseña:</label>
+						<input type="password" id="password" name="password" value="" class="input-field" required>
+
+						<input type="submit" value="Iniciar sesión" class="submit-btn">
+					</form>
             </div>
         </div>
 
@@ -78,6 +76,6 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/main.js"></script>
-<script src="js/server.js"></script>
+<script src="server.js"></script>
 </body>
 </html>

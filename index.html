@@ -25,7 +25,6 @@
 				<ul class="main-navigation__ul">
 					<li><a href="index.html">Inicio</a></li>
 					<li><a href="usuarios.html">Registrarse y Iniciar Sesion</a></li>
-					<li><a href="#">Iniciar Sesión</a></li>
 				</ul>
 			</div>
 			<div id="myBtn" class="burger-container" onclick="myFunction(this)">
@@ -97,7 +96,7 @@
 			<h2 class="universal-h2 universal-h2-bckg">Nuevos Libros</h2>
 			<div class="books">
 				<div class="single-book">
-					<a href="#" class="single-book__img">
+					<a href="https://www.amazon.com/-/es/Brandon-Sanderson/dp/8498726131" class="single-book__img">
 						<img src="./images/books-1.jpg">
 						<div class="single-book_download">
 							<img src="./images/download.svg" alt="book image">
@@ -114,7 +113,7 @@
 					</div>
 				</div>
 				<div class="single-book">
-					<a href="#" class="single-book__img">
+					<a href="https://www.amazon.com/camino-los-reyes-Way-Kings/dp/B08NCTZC98/ref=sr_1_1?crid=6MA6VL5FMCTI&keywords=El+archivo+de+las+tormentas&qid=1691372874&s=books&sprefix=el+archivo+de+las+tormentas%2Cstripbooks-intl-ship%2C658&sr=1-1" class="single-book__img">
 						<img src="./images/books-2.jpg">
 						<div class="single-book_download">
 							<img src="./images/download.svg" alt="book image">
@@ -131,10 +130,10 @@
 					</div>
 				</div>
 				<div class="single-book">
-					<a href="#" class="single-book__img">
+					<a href="https://www.amazon.com/Aleaci%C3%B3n-Nacidos-bruma-Mistborn-Spanish-ebook/dp/B009D04QM6/ref=sr_1_1?crid=L1VBBEBKL19B&keywords=Aleaci%C3%B3n+de+ley&qid=1691372927&s=books&sprefix=aleaci%C3%B3n+de+ley%2Cstripbooks-intl-ship%2C187&sr=1-1" class="single-book__img">
 						<img src="./images/books-3.png">
 						<div class="single-book_download">
-							<img src="./images/download.svg" alt="book image">
+							 <img src="./images/download.svg" alt="book image">
 						</div>
 					</a>
 					<h4 class="single-book__title">Aleación de ley</h4>
@@ -148,7 +147,7 @@
 					</div>
 				</div>
 				<div class="single-book">
-					<a href="#" class="single-book__img">
+					<a href="https://www.amazon.com/camino-los-reyes-Way-Kings/dp/B08NCTZC98/ref=sr_1_1?crid=36JPGFHXR51H3&keywords=El+camino+de+los+reyes&qid=1691372963&s=books&sprefix=aleaci%C3%B3n+de+ley%2Cstripbooks-intl-ship%2C283&sr=1-1" class="single-book__img">
 						<img src="./images/books-4.jpg">
 						<div class="single-book_download">
 							<img src="./images/download.svg" alt="book image">
@@ -242,24 +241,24 @@
 				</div>
 				<div class="footer-contact-form">
 					<h5>Formulario de contacto</h5>
-					<form class="contact-form">
+					<form action="/contactar" method="post" class="contact-form">
 						<div class="contact-form__input">
-							<input type="text" name="name" placeholder="Nombre">
-							<input type="email" name="email" placeholder="Correo">
-							<input type="date" value="2023-07-28"/>
-					
+						  <input type="text" id="name" name="name" placeholder="Nombre">
+						  <input type="email" id="email" name="email" placeholder="Correo">
+						  <input type="date" id="dob" name="dob" value="2023-07-28"/>
 						</div>
-						<textarea></textarea>
-						<input type="file" id="myfile" name="myfile">
-						<input type="submit" name="submit" value="Enviar" class="submit-button">
-					</form>
+						  <textarea id="message" name="message"></textarea>
+						  <input type="file" id="myfile" name="myfile">
+						  <input type="submit" value="Enviar" class="submit-button">
+					  </form>
+
 				</div>
 			</div>
 		</div>
 		<div class="footer-bottom">
 			<div class="site-container footer-bottom-inner">
 				<div class="footer-bottom__img">
-					<img src="./images/footer-mastercard.png" alt="footer image">
+					<a href="http://"><img src="./images/footer-mastercard.png" alt="footer image"></a>
 					<img src="./images/footer-paypal.png" alt="footer image">
 					<img src="./images/footer-visa.png" alt="footer image">
 					<img src="./images/footer-fedex.png" alt="footer image">

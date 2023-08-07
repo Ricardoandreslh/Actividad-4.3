@@ -38,6 +38,23 @@ app.post('/login', async (req, res) => {
     res.redirect('/');
 });
 
+app.post('/contactar', async (req, res) => {
+  var dbo = await MongoClient.connect(process.env.MONGODB_URL);
+  var contactForm = {
+    name: req.body.name,
+    email: req.body.email,
+    dob: req.body.dob,
+    message: req.body.message,
+    file: req.body.myfile
+    };
+  dbo.collection("contacts").insertOne(contactForm, function(err, res) {
+    if (err) throw err;
+    console.log("Formulario de contacto enviado");
+    dbo.close();
+  });
+  res.redirect('/'); 
+});
+
 app.listen(3000, function() {
   console.log('El servidor esta en el Puerto 300');
 });
